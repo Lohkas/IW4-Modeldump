@@ -1,0 +1,8 @@
+newmtl mtl_weapon_m16_digital
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_m16_col.png
+map_bump _images\\weapon_m16_nml.png
+map_Ks _images\\~weapon_m16_spc-rgb&weapon_m1~d9f9c07b.png

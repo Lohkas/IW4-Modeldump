@@ -1,0 +1,8 @@
+newmtl mtl_us_army_glove
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\us_army_glove_col.png
+map_bump _images\\us_army_glove_nml.png
+map_Ks _images\\~us_army_glove_spc-rgb&us_arm~ffb6930b.png

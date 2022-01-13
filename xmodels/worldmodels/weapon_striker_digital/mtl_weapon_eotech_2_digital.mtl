@@ -1,0 +1,8 @@
+newmtl mtl_weapon_eotech_2_digital
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_eotech_2_col.png
+map_bump _images\\weapon_eotech_2_nml.png
+map_Ks _images\\~weapon_eotech_2_spc-rgb&weap~21ec7600.png

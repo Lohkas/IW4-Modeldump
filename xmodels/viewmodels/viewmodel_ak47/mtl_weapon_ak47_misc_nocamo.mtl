@@ -1,0 +1,8 @@
+newmtl mtl_weapon_ak47_misc_nocamo
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_ak47_c.png
+map_bump _images\\$identitynormalmap.png
+map_Ks _images\\~weapon_ak47_s-r18g18b18&weap~b37be0fe.png

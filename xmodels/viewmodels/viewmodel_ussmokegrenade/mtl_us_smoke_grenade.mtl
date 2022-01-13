@@ -1,0 +1,8 @@
+newmtl mtl_us_smoke_grenade
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\us_smoke_grenade_c.png
+map_bump _images\\$identitynormalmap.png
+map_Ks _images\\~us_smoke_grenade_s-rgb&us_sm~2949df4e.png

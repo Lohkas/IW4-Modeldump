@@ -1,0 +1,8 @@
+newmtl mtl_weapon_semtex_grenade
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_semtex_grenade_col.png
+map_bump _images\\weapon_semtex_grenade_nml.png
+map_Ks _images\\~weapon_semtex_grenade_spc-rg~e0a62523.png

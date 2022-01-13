@@ -1,0 +1,8 @@
+newmtl mtl_weapon_chem_light
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\chem_light_col.png
+map_bump _images\\chem_light_nml.png
+map_Ks _images\\~chem_light_spc-rgb&chem_ligh~6142e198.png

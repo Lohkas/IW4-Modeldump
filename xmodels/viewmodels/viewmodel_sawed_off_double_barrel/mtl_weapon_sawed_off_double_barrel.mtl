@@ -1,0 +1,8 @@
+newmtl mtl_weapon_sawed_off_double_barrel
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\sawed_off_double_barrel_col.png
+map_bump _images\\sawed_off_double_barrel_nml.png
+map_Ks _images\\~sawed_off_double_barrel_spc-~e62ff3b6.png

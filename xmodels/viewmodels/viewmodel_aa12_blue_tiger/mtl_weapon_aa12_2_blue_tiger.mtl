@@ -1,0 +1,8 @@
+newmtl mtl_weapon_aa12_2_blue_tiger
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_aa12_2_col.png
+map_bump _images\\weapon_aa12_2_nrml.png
+map_Ks _images\\~weapon_aa12_2_spec-rgb&weapo~e0415360.png

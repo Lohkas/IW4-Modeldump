@@ -1,0 +1,8 @@
+newmtl mtl_weapon_thermal_sight_2_desert
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\thermal_scope_col.png
+map_bump _images\\thermal_scope_nml.png
+map_Ks _images\\~thermal_scope_spc-rgb&therma~acd107a9.png

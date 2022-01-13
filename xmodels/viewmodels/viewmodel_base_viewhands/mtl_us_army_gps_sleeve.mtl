@@ -1,0 +1,8 @@
+newmtl mtl_us_army_gps_sleeve
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\us_army_sleeve_gps_col.png
+map_bump _images\\us_army_sleeve_gps_nml.png
+map_Ks _images\\~us_army_sleeve_gps_spc-rgb&u~71231169.png

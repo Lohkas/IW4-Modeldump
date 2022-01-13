@@ -1,0 +1,8 @@
+newmtl mtl_weapon_model_1887_metal
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_model1887_col.png
+map_bump _images\\weapon_model1887_nrml.png
+map_Ks _images\\~weapon_model1887_spec-rgb&we~54b1b60a.png

@@ -1,0 +1,8 @@
+newmtl mtl_weapon_minigun
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_minigun_col.png
+map_bump _images\\$identitynormalmap.png
+map_Ks _images\\~weapon_minigun_spc-r63g63b63~25fef0c9.png

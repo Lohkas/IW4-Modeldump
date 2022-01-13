@@ -1,0 +1,8 @@
+newmtl mtl_weapon_rpg7
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_rpg7_2_col.png
+map_bump _images\\weapon_rpg7_2_nml.png
+map_Ks _images\\~weapon_rpg7_2_spc-rgb&weapon~006a65d1.png

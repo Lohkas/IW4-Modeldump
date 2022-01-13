@@ -1,0 +1,79 @@
+/*
+* Advanced weighting script X
+* Wraith - Game extraction tools
+*/
+
+global proc WraithMesh_82c3d175_00_BindFunc()
+{
+   select -r WraithMesh_82c3d175_00;
+   select -add j_gun;
+   newSkinCluster "-toSelectedBones -mi 15 -omi true -dr 5.0 -rui false";   string $clu = findRelatedSkinCluster("WraithMesh_82c3d175_00");
+
+   skinPercent -tv j_gun 1.0 $clu WraithMesh_82c3d175_00.vtx[0:698];
+}
+
+global proc WraithMesh_82c3d175_01_BindFunc()
+{
+   select -r WraithMesh_82c3d175_01;
+   select -add j_bolt;
+   newSkinCluster "-toSelectedBones -mi 15 -omi true -dr 5.0 -rui false";   string $clu = findRelatedSkinCluster("WraithMesh_82c3d175_01");
+
+   skinPercent -tv j_bolt 1.0 $clu WraithMesh_82c3d175_01.vtx[0:932];
+}
+
+global proc WraithMesh_82c3d175_02_BindFunc()
+{
+   select -r WraithMesh_82c3d175_02;
+   select -add tag_clip;
+   select -add j_press_rear;
+   select -add j_gun;
+   newSkinCluster "-toSelectedBones -mi 15 -omi true -dr 5.0 -rui false";   string $clu = findRelatedSkinCluster("WraithMesh_82c3d175_02");
+
+   skinPercent -tv tag_clip 1.0 $clu WraithMesh_82c3d175_02.vtx[0:69];
+   skinPercent -tv j_press_rear 1.0 $clu WraithMesh_82c3d175_02.vtx[344:441];
+   skinPercent -tv j_gun 1.0 $clu WraithMesh_82c3d175_02.vtx[70:343];
+}
+
+global proc WraithMesh_82c3d175_03_BindFunc()
+{
+   select -r WraithMesh_82c3d175_03;
+   select -add j_gun;
+   newSkinCluster "-toSelectedBones -mi 15 -omi true -dr 5.0 -rui false";   string $clu = findRelatedSkinCluster("WraithMesh_82c3d175_03");
+
+   skinPercent -tv j_gun 1.0 $clu WraithMesh_82c3d175_03.vtx[0:477];
+}
+
+global proc WraithMesh_82c3d175_04_BindFunc()
+{
+   select -r WraithMesh_82c3d175_04;
+   select -add tag_silencer;
+   newSkinCluster "-toSelectedBones -mi 15 -omi true -dr 5.0 -rui false";   string $clu = findRelatedSkinCluster("WraithMesh_82c3d175_04");
+
+   skinPercent -tv tag_silencer 1.0 $clu WraithMesh_82c3d175_04.vtx[0:105];
+}
+
+global proc RunAdvancedScript()
+{
+   catch(WraithMesh_82c3d175_00_BindFunc());
+   catch(WraithMesh_82c3d175_01_BindFunc());
+   catch(WraithMesh_82c3d175_02_BindFunc());
+   catch(WraithMesh_82c3d175_03_BindFunc());
+   catch(WraithMesh_82c3d175_04_BindFunc());
+}
+
+global proc NamespacePurge()
+{
+   string $allNodes[] = `ls`;
+   for($node in $allNodes) {
+      string $buffer[];
+      tokenize $node ":" $buffer;
+      string $newName = $buffer[size($buffer)-1];
+       catchQuiet(`rename $node $newName`);
+   }
+}
+
+print("Currently binding the current model, please wait...\n");
+NamespacePurge();
+RunAdvancedScript();
+print("The model has been binded.\n");
+

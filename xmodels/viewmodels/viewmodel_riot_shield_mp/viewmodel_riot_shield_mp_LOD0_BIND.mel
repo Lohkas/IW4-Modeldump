@@ -1,0 +1,75 @@
+/*
+* Advanced weighting script X
+* Wraith - Game extraction tools
+*/
+
+global proc WraithMesh_56694ce5_00_BindFunc()
+{
+   select -r WraithMesh_56694ce5_00;
+   select -add j_gun;
+   newSkinCluster "-toSelectedBones -mi 15 -omi true -dr 5.0 -rui false";   string $clu = findRelatedSkinCluster("WraithMesh_56694ce5_00");
+
+   skinPercent -tv j_gun 1.0 $clu WraithMesh_56694ce5_00.vtx[0:67];
+}
+
+global proc WraithMesh_56694ce5_01_BindFunc()
+{
+   select -r WraithMesh_56694ce5_01;
+   select -add j_gun;
+   newSkinCluster "-toSelectedBones -mi 15 -omi true -dr 5.0 -rui false";   string $clu = findRelatedSkinCluster("WraithMesh_56694ce5_01");
+
+   skinPercent -tv j_gun 1.0 $clu WraithMesh_56694ce5_01.vtx[0:1795];
+}
+
+global proc WraithMesh_56694ce5_02_BindFunc()
+{
+   select -r WraithMesh_56694ce5_02;
+   select -add j_strap_010;
+   select -add j_strap_05;
+   select -add j_strap_07;
+   select -add j_strap_03;
+   select -add j_strap_top;
+   select -add j_strap_09;
+   select -add j_strap_bottom;
+   select -add j_strap_08;
+   select -add j_strap_06;
+   select -add j_strap_04;
+   select -add j_strap_02;
+   newSkinCluster "-toSelectedBones -mi 15 -omi true -dr 5.0 -rui false";   string $clu = findRelatedSkinCluster("WraithMesh_56694ce5_02");
+
+   skinPercent -tv j_strap_010 1.0 $clu WraithMesh_56694ce5_02.vtx[270:271] WraithMesh_56694ce5_02.vtx[302:303] WraithMesh_56694ce5_02.vtx[308:309] WraithMesh_56694ce5_02.vtx[312] WraithMesh_56694ce5_02.vtx[314] WraithMesh_56694ce5_02.vtx[325] WraithMesh_56694ce5_02.vtx[327] WraithMesh_56694ce5_02.vtx[360:361];
+   skinPercent -tv j_strap_05 1.0 $clu WraithMesh_56694ce5_02.vtx[0:15] WraithMesh_56694ce5_02.vtx[278:279] WraithMesh_56694ce5_02.vtx[284:285] WraithMesh_56694ce5_02.vtx[297] WraithMesh_56694ce5_02.vtx[299] WraithMesh_56694ce5_02.vtx[366:368] WraithMesh_56694ce5_02.vtx[370] WraithMesh_56694ce5_02.vtx[378] WraithMesh_56694ce5_02.vtx[380];
+   skinPercent -tv j_strap_07 1.0 $clu WraithMesh_56694ce5_02.vtx[16:31] WraithMesh_56694ce5_02.vtx[288:289] WraithMesh_56694ce5_02.vtx[321] WraithMesh_56694ce5_02.vtx[323] WraithMesh_56694ce5_02.vtx[330:331] WraithMesh_56694ce5_02.vtx[352] WraithMesh_56694ce5_02.vtx[354];
+   skinPercent -tv j_strap_03 1.0 $clu WraithMesh_56694ce5_02.vtx[144:159] WraithMesh_56694ce5_02.vtx[304] WraithMesh_56694ce5_02.vtx[306] WraithMesh_56694ce5_02.vtx[318:319] WraithMesh_56694ce5_02.vtx[337] WraithMesh_56694ce5_02.vtx[339] WraithMesh_56694ce5_02.vtx[348:349];
+   skinPercent -tv j_strap_top 1.0 $clu WraithMesh_56694ce5_02.vtx[32:143] WraithMesh_56694ce5_02.vtx[332] WraithMesh_56694ce5_02.vtx[334] WraithMesh_56694ce5_02.vtx[340:341];
+   skinPercent -tv j_strap_09 1.0 $clu WraithMesh_56694ce5_02.vtx[268:269] WraithMesh_56694ce5_02.vtx[294:295] WraithMesh_56694ce5_02.vtx[300:301] WraithMesh_56694ce5_02.vtx[324] WraithMesh_56694ce5_02.vtx[326] WraithMesh_56694ce5_02.vtx[345] WraithMesh_56694ce5_02.vtx[347] WraithMesh_56694ce5_02.vtx[357] WraithMesh_56694ce5_02.vtx[359];
+   skinPercent -tv j_strap_bottom 1.0 $clu WraithMesh_56694ce5_02.vtx[160:265] WraithMesh_56694ce5_02.vtx[272:273] WraithMesh_56694ce5_02.vtx[310:311] WraithMesh_56694ce5_02.vtx[313] WraithMesh_56694ce5_02.vtx[315] WraithMesh_56694ce5_02.vtx[362:363];
+   skinPercent -tv j_strap_08 1.0 $clu WraithMesh_56694ce5_02.vtx[266:267] WraithMesh_56694ce5_02.vtx[276:277] WraithMesh_56694ce5_02.vtx[290:293] WraithMesh_56694ce5_02.vtx[344] WraithMesh_56694ce5_02.vtx[346] WraithMesh_56694ce5_02.vtx[353] WraithMesh_56694ce5_02.vtx[355:356] WraithMesh_56694ce5_02.vtx[358] WraithMesh_56694ce5_02.vtx[376:377];
+   skinPercent -tv j_strap_06 1.0 $clu WraithMesh_56694ce5_02.vtx[274:275] WraithMesh_56694ce5_02.vtx[286:287] WraithMesh_56694ce5_02.vtx[320] WraithMesh_56694ce5_02.vtx[322] WraithMesh_56694ce5_02.vtx[328:329] WraithMesh_56694ce5_02.vtx[374:375] WraithMesh_56694ce5_02.vtx[379] WraithMesh_56694ce5_02.vtx[381];
+   skinPercent -tv j_strap_04 1.0 $clu WraithMesh_56694ce5_02.vtx[280:281] WraithMesh_56694ce5_02.vtx[296] WraithMesh_56694ce5_02.vtx[298] WraithMesh_56694ce5_02.vtx[305] WraithMesh_56694ce5_02.vtx[307] WraithMesh_56694ce5_02.vtx[350:351] WraithMesh_56694ce5_02.vtx[364:365] WraithMesh_56694ce5_02.vtx[369] WraithMesh_56694ce5_02.vtx[371];
+   skinPercent -tv j_strap_02 1.0 $clu WraithMesh_56694ce5_02.vtx[282:283] WraithMesh_56694ce5_02.vtx[316:317] WraithMesh_56694ce5_02.vtx[333] WraithMesh_56694ce5_02.vtx[335:336] WraithMesh_56694ce5_02.vtx[338] WraithMesh_56694ce5_02.vtx[342:343] WraithMesh_56694ce5_02.vtx[372:373];
+}
+
+global proc RunAdvancedScript()
+{
+   catch(WraithMesh_56694ce5_00_BindFunc());
+   catch(WraithMesh_56694ce5_01_BindFunc());
+   catch(WraithMesh_56694ce5_02_BindFunc());
+}
+
+global proc NamespacePurge()
+{
+   string $allNodes[] = `ls`;
+   for($node in $allNodes) {
+      string $buffer[];
+      tokenize $node ":" $buffer;
+      string $newName = $buffer[size($buffer)-1];
+       catchQuiet(`rename $node $newName`);
+   }
+}
+
+print("Currently binding the current model, please wait...\n");
+NamespacePurge();
+RunAdvancedScript();
+print("The model has been binded.\n");
+

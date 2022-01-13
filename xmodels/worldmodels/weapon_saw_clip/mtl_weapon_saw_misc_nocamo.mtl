@@ -1,0 +1,8 @@
+newmtl mtl_weapon_saw_misc_nocamo
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_saw_col.png
+map_bump _images\\$identitynormalmap.png
+map_Ks _images\\~weapon_saw_spc-r47g47b47&wea~4e5a4853.png

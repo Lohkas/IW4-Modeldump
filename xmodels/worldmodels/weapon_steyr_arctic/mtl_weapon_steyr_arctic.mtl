@@ -1,0 +1,8 @@
+newmtl mtl_weapon_steyr_arctic
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_steyr_col.png
+map_bump _images\\weapon_steyr_nml.png
+map_Ks _images\\~weapon_steyr_spc-r-20g-20b-2~6dff05b8.png

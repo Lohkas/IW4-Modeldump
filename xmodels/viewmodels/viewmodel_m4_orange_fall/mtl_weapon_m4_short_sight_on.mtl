@@ -1,0 +1,8 @@
+newmtl mtl_weapon_m4_short_sight_on
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_m4_short_col.png
+map_bump _images\\weapon_m4_short_nml.png
+map_Ks _images\\~weapon_m4_short_spc-rgb&weap~f7eec864.png

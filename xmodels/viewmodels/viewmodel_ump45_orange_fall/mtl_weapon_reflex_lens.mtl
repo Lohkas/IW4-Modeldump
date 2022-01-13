@@ -1,0 +1,8 @@
+newmtl mtl_weapon_reflex_lens
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_reflex_lense_col.png
+map_bump _images\\weapon_reflex_lense_nml.png
+map_Ks _images\\~weapon_reflex_lense_spc-rgb&~9a4c43c3.png

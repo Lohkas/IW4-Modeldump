@@ -1,0 +1,99 @@
+/*
+* Advanced weighting script X
+* Wraith - Game extraction tools
+*/
+
+global proc WraithMesh_b1f8fa83_00_BindFunc()
+{
+   select -r WraithMesh_b1f8fa83_00;
+   select -add j_stick_ri;
+   select -add j_stick;
+   select -add j_stick_le;
+   newSkinCluster "-toSelectedBones -mi 15 -omi true -dr 5.0 -rui false";   string $clu = findRelatedSkinCluster("WraithMesh_b1f8fa83_00");
+
+   skinPercent -tv j_stick_ri 1.0 $clu WraithMesh_b1f8fa83_00.vtx[3:11] WraithMesh_b1f8fa83_00.vtx[42:45] WraithMesh_b1f8fa83_00.vtx[52:56] WraithMesh_b1f8fa83_00.vtx[59:74] WraithMesh_b1f8fa83_00.vtx[81:83] WraithMesh_b1f8fa83_00.vtx[96:98] WraithMesh_b1f8fa83_00.vtx[117:141];
+   skinPercent -tv j_stick 1.0 $clu WraithMesh_b1f8fa83_00.vtx[0:2] WraithMesh_b1f8fa83_00.vtx[12:13] WraithMesh_b1f8fa83_00.vtx[16:18] WraithMesh_b1f8fa83_00.vtx[26:30] WraithMesh_b1f8fa83_00.vtx[40:41] WraithMesh_b1f8fa83_00.vtx[46:51] WraithMesh_b1f8fa83_00.vtx[57:58];
+   skinPercent -tv j_stick_le 1.0 $clu WraithMesh_b1f8fa83_00.vtx[14:15] WraithMesh_b1f8fa83_00.vtx[19:25] WraithMesh_b1f8fa83_00.vtx[31:39] WraithMesh_b1f8fa83_00.vtx[75:80] WraithMesh_b1f8fa83_00.vtx[84:95] WraithMesh_b1f8fa83_00.vtx[99:116];
+   skinPercent -tv j_stick 0.300781 $clu WraithMesh_b1f8fa83_00.vtx[59:60] WraithMesh_b1f8fa83_00.vtx[63:64] WraithMesh_b1f8fa83_00.vtx[67] WraithMesh_b1f8fa83_00.vtx[73:74] WraithMesh_b1f8fa83_00.vtx[81:83] WraithMesh_b1f8fa83_00.vtx[96] WraithMesh_b1f8fa83_00.vtx[98] WraithMesh_b1f8fa83_00.vtx[117:119] WraithMesh_b1f8fa83_00.vtx[124:129] WraithMesh_b1f8fa83_00.vtx[137:138] WraithMesh_b1f8fa83_00.vtx[140:141];
+   skinPercent -tv j_stick 0.453125 $clu WraithMesh_b1f8fa83_00.vtx[75:76] WraithMesh_b1f8fa83_00.vtx[80] WraithMesh_b1f8fa83_00.vtx[84:86] WraithMesh_b1f8fa83_00.vtx[93:95] WraithMesh_b1f8fa83_00.vtx[99:100] WraithMesh_b1f8fa83_00.vtx[110:116];
+   skinPercent -tv j_stick 0.203125 $clu WraithMesh_b1f8fa83_00.vtx[61:62] WraithMesh_b1f8fa83_00.vtx[65:66] WraithMesh_b1f8fa83_00.vtx[68:72] WraithMesh_b1f8fa83_00.vtx[77:79] WraithMesh_b1f8fa83_00.vtx[87:92] WraithMesh_b1f8fa83_00.vtx[97] WraithMesh_b1f8fa83_00.vtx[101:109] WraithMesh_b1f8fa83_00.vtx[120:123] WraithMesh_b1f8fa83_00.vtx[130:136] WraithMesh_b1f8fa83_00.vtx[139];
+}
+
+global proc WraithMesh_b1f8fa83_01_BindFunc()
+{
+   select -r WraithMesh_b1f8fa83_01;
+   select -add j_stick_ri;
+   newSkinCluster "-toSelectedBones -mi 15 -omi true -dr 5.0 -rui false";   string $clu = findRelatedSkinCluster("WraithMesh_b1f8fa83_01");
+
+   skinPercent -tv j_stick_ri 1.0 $clu WraithMesh_b1f8fa83_01.vtx[0:702];
+}
+
+global proc WraithMesh_b1f8fa83_02_BindFunc()
+{
+   select -r WraithMesh_b1f8fa83_02;
+   select -add j_stick_on_ri;
+   newSkinCluster "-toSelectedBones -mi 15 -omi true -dr 5.0 -rui false";   string $clu = findRelatedSkinCluster("WraithMesh_b1f8fa83_02");
+
+   skinPercent -tv j_stick_on_ri 1.0 $clu WraithMesh_b1f8fa83_02.vtx[0:702];
+}
+
+global proc WraithMesh_b1f8fa83_03_BindFunc()
+{
+   select -r WraithMesh_b1f8fa83_03;
+   select -add j_stick_on_le;
+   newSkinCluster "-toSelectedBones -mi 15 -omi true -dr 5.0 -rui false";   string $clu = findRelatedSkinCluster("WraithMesh_b1f8fa83_03");
+
+   skinPercent -tv j_stick_on_le 1.0 $clu WraithMesh_b1f8fa83_03.vtx[0:913];
+}
+
+global proc WraithMesh_b1f8fa83_04_BindFunc()
+{
+   select -r WraithMesh_b1f8fa83_04;
+   select -add j_stick_le;
+   newSkinCluster "-toSelectedBones -mi 15 -omi true -dr 5.0 -rui false";   string $clu = findRelatedSkinCluster("WraithMesh_b1f8fa83_04");
+
+   skinPercent -tv j_stick_le 1.0 $clu WraithMesh_b1f8fa83_04.vtx[0:913];
+}
+
+global proc WraithMesh_b1f8fa83_05_BindFunc()
+{
+   select -r WraithMesh_b1f8fa83_05;
+   select -add j_stick_on;
+   select -add j_stick_on_ri;
+   select -add j_stick_on_le;
+   newSkinCluster "-toSelectedBones -mi 15 -omi true -dr 5.0 -rui false";   string $clu = findRelatedSkinCluster("WraithMesh_b1f8fa83_05");
+
+   skinPercent -tv j_stick_on 1.0 $clu WraithMesh_b1f8fa83_05.vtx[9:10] WraithMesh_b1f8fa83_05.vtx[13:19] WraithMesh_b1f8fa83_05.vtx[29:30] WraithMesh_b1f8fa83_05.vtx[40] WraithMesh_b1f8fa83_05.vtx[43:48];
+   skinPercent -tv j_stick_on_ri 1.0 $clu WraithMesh_b1f8fa83_05.vtx[0:8] WraithMesh_b1f8fa83_05.vtx[27:28] WraithMesh_b1f8fa83_05.vtx[41:42] WraithMesh_b1f8fa83_05.vtx[49:64] WraithMesh_b1f8fa83_05.vtx[71:77] WraithMesh_b1f8fa83_05.vtx[90:93] WraithMesh_b1f8fa83_05.vtx[112:125];
+   skinPercent -tv j_stick_on_le 1.0 $clu WraithMesh_b1f8fa83_05.vtx[11:12] WraithMesh_b1f8fa83_05.vtx[20:26] WraithMesh_b1f8fa83_05.vtx[31:39] WraithMesh_b1f8fa83_05.vtx[65:70] WraithMesh_b1f8fa83_05.vtx[78:89] WraithMesh_b1f8fa83_05.vtx[94:111];
+   skinPercent -tv j_stick_on 0.453125 $clu WraithMesh_b1f8fa83_05.vtx[65:66] WraithMesh_b1f8fa83_05.vtx[70] WraithMesh_b1f8fa83_05.vtx[78] WraithMesh_b1f8fa83_05.vtx[81:85] WraithMesh_b1f8fa83_05.vtx[94:95] WraithMesh_b1f8fa83_05.vtx[105:111];
+   skinPercent -tv j_stick_on 0.203125 $clu WraithMesh_b1f8fa83_05.vtx[54:62] WraithMesh_b1f8fa83_05.vtx[67:69] WraithMesh_b1f8fa83_05.vtx[79:80] WraithMesh_b1f8fa83_05.vtx[86:91] WraithMesh_b1f8fa83_05.vtx[96:104] WraithMesh_b1f8fa83_05.vtx[113:114] WraithMesh_b1f8fa83_05.vtx[121:125];
+   skinPercent -tv j_stick_on 0.300781 $clu WraithMesh_b1f8fa83_05.vtx[63:64] WraithMesh_b1f8fa83_05.vtx[71:77] WraithMesh_b1f8fa83_05.vtx[92:93] WraithMesh_b1f8fa83_05.vtx[112] WraithMesh_b1f8fa83_05.vtx[115:120];
+}
+
+global proc RunAdvancedScript()
+{
+   catch(WraithMesh_b1f8fa83_00_BindFunc());
+   catch(WraithMesh_b1f8fa83_01_BindFunc());
+   catch(WraithMesh_b1f8fa83_02_BindFunc());
+   catch(WraithMesh_b1f8fa83_03_BindFunc());
+   catch(WraithMesh_b1f8fa83_04_BindFunc());
+   catch(WraithMesh_b1f8fa83_05_BindFunc());
+}
+
+global proc NamespacePurge()
+{
+   string $allNodes[] = `ls`;
+   for($node in $allNodes) {
+      string $buffer[];
+      tokenize $node ":" $buffer;
+      string $newName = $buffer[size($buffer)-1];
+       catchQuiet(`rename $node $newName`);
+   }
+}
+
+print("Currently binding the current model, please wait...\n");
+NamespacePurge();
+RunAdvancedScript();
+print("The model has been binded.\n");
+

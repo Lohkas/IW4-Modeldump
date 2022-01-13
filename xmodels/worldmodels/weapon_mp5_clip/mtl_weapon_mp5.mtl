@@ -1,0 +1,8 @@
+newmtl mtl_weapon_mp5
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_mp5_c.png
+map_bump _images\\$identitynormalmap.png
+map_Ks _images\\~weapon_mp5_s-r83g83b83&weapo~0a9aa3de.png

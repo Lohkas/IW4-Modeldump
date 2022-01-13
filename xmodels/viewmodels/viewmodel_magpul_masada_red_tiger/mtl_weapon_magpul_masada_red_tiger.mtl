@@ -1,0 +1,8 @@
+newmtl mtl_weapon_magpul_masada_red_tiger
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_magpul_masada_new_col.png
+map_bump _images\\weapon_magpul_masada_new_nml.png
+map_Ks _images\\~weapon_magpul_masada_new_spc~c2f2b865.png

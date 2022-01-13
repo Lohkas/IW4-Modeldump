@@ -1,0 +1,8 @@
+newmtl mtl_weapon_drum_magazine
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\drum_magazine_clr.png
+map_bump _images\\drum_magazine_nml.png
+map_Ks _images\\~drum_magazine_spc-rgb&drum_m~8284cb3a.png

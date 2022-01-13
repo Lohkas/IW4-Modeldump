@@ -1,0 +1,8 @@
+newmtl mtl_weapon_stinger
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_stinger_col.png
+map_bump _images\\weapon_stinger_nrml.png
+map_Ks _images\\~weapon_stinger_spc-rgb&weapo~0ca355b5.png

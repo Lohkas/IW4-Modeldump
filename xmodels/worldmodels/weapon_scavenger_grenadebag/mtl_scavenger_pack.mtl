@@ -1,0 +1,8 @@
+newmtl mtl_scavenger_pack
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\prop_sacvenger_pack_col.png
+map_bump _images\\prop_sacvenger_pack_nml.png
+map_Ks _images\\~prop_sacvenger_pack_spc-rgb&~7da8ce7f.png

@@ -1,0 +1,8 @@
+newmtl mtl_weapon_m67_grenade
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\m67_grenade_col.png
+map_bump _images\\$identitynormalmap.png
+map_Ks _images\\~m67_grenade_spc-rgb&m67_gren~16d1537e.png

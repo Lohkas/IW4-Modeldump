@@ -1,0 +1,8 @@
+newmtl mtl_weapon_p90_woodland
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_p90_new_col.png
+map_bump _images\\weapon_p90_new_nml.png
+map_Ks _images\\~weapon_p90_new_spc-r47g47b47~4f409230.png

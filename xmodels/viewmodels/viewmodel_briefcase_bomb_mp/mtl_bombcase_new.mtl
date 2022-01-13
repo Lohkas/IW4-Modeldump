@@ -1,0 +1,8 @@
+newmtl mtl_bombcase_new
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_briefbomb_col.png
+map_bump _images\\weapon_briefbomb_nml.png
+map_Ks _images\\~weapon_briefbomb_spc-rgb&wea~56dc3b81.png

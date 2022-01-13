@@ -1,0 +1,8 @@
+newmtl mtl_weapon_rpd_foregrip
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_rpd_new_col_palstic.png
+map_bump _images\\weapon_rpd_new_nml.png
+map_Ks _images\\~weapon_rpd_new_spc-rgb&weapo~55b00adf.png

@@ -1,0 +1,8 @@
+newmtl mtl_weapon_concussion_grenade
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\concussion_col.png
+map_bump _images\\$identitynormalmap.png
+map_Ks _images\\~m84_flashbang_spec-rgb&m84_f~3b0a47a7.png

@@ -1,0 +1,8 @@
+newmtl mtl_weapon_scar_h_arctic
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.50 0.50 0.50
+map_Kd _images\\weapon_scar_h_col.png
+map_bump _images\\weapon_scar_h_nrml.png
+map_Ks _images\\~weapon_scar_h_spec-rgb&weapo~9802454e.png
